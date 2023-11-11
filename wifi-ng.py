@@ -18,7 +18,7 @@ Dense detects,
 """
 
 def logging(log):
-    with open("/var/log/pidens.log", "a") as f:
+    with open("/var/log/wifi-ng-mon.log", "a") as f:
         f.write(str(log)+"\n")
         f.flush()
         f.close()
